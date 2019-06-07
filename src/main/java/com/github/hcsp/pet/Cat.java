@@ -5,6 +5,9 @@ public class Cat {
 
     /** Return the name length of this cat. Return zero if it's anonymous. 返回这只猫名字的长度。如果没有名字则返回0。 */
     public int getNameLength() {
+        if(name==null){
+            return 0;
+        }
         // Fix the NullPointerException thrown in this method
         // 在本方法中，修复抛出的空指针异常（NullPointerException）
         return name.length();
