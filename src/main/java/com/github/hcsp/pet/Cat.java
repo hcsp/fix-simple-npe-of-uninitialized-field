@@ -10,8 +10,7 @@ public class Cat {
         try {
             return name.length();
         }catch(NullPointerException e) {
-            System.out.println("Empty name error.");
-            return -1;
+            return 0;
         }
 
     }
