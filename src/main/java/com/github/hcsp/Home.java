@@ -16,6 +16,7 @@ public class Home {
         // 请在Cat.getNameLength()方法中修复此问题
         Cat anonymousCat = new Cat();
         anonymousCat.name="anonymousCat";
+
         System.out.println("name length: " + anonymousCat.getNameLength());
     }
 }
