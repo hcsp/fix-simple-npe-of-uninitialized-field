@@ -15,7 +15,6 @@ public class Home {
         // 一只没有名字的猫的名字长度本来应该是0，但是现在抛出了一个异常
         // 请在Cat.getNameLength()方法中修复此问题
         Cat anonymousCat = new Cat();
-        anonymousCat.name="";
         System.out.println("name length: " + anonymousCat.getNameLength());
     }
 }
