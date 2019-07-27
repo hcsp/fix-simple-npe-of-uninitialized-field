@@ -6,6 +6,11 @@ import org.junit.jupiter.api.Test;
 public class CatTest {
     @Test
     public void catNameLengthTest() {
-        Assertions.assertEquals(0, new Cat().getNameLength());
+        Cat cat = new Cat();
+        Assertions.assertEquals(0, cat.getNameLength());
+        cat.name = "A";
+        Assertions.assertEquals(1, cat.getNameLength());
+        cat.name = "AB";
+        Assertions.assertEquals(2, cat.getNameLength());
     }
 }
