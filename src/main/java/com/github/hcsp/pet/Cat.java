@@ -10,7 +10,7 @@ public class Cat {
         if (name != null) {
             return name.length();
         } else {
-            return -1;
+            return 0;
         }
     }
 }
