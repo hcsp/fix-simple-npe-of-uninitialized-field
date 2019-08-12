@@ -7,7 +7,7 @@ public class CatTest {
     @Test
     public void catNameLengthTest() {
         Cat cat = new Cat();
-        Assertions.assertEquals(0, cat.getNameLength());
+        Assertions.assertEquals(-1, cat.getNameLength());
         cat.name = "A";
         Assertions.assertEquals(1, cat.getNameLength());
         cat.name = "AB";
