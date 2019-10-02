@@ -11,7 +11,7 @@ public class Cat {
             return name.length();
         }
         else {
-            return 0;
+            return -1;
         }
 
     }
