@@ -8,7 +8,7 @@ public class Cat {
         // Fix the NullPointerException thrown in this method
         // 在本方法中，修复抛出的空指针异常（NullPointerException）
         if(name==null)
-           return 0;
+        return -1;
         else
         return name.length();
     }
