@@ -10,7 +10,7 @@ public class Cat {
         if (this.name==null)
         {
             System.out.println("我没有名字");
-             return 0;
+             return -1;
 
         }else {
             return name.length();
