@@ -9,7 +9,7 @@ public class Cat {
         // 在本方法中，修复抛出的空指针异常（NullPointerException）
         if ( name == null) {
             System.out.println("你还没有给小猫起名字！");
-            return 0;
+            return -1;
         }   else {
             return name.length();
 
