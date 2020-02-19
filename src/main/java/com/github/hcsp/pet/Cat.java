@@ -9,7 +9,7 @@ public class Cat {
         // 在本方法中，修复抛出的空指针异常（NullPointerException）
         if (name==null){ //判断是否为空//
             //System.out.println("没有名字");
-            return 0; //是则返回int类型 0
+            return -1; //是则返回int类型 0
         }
 
 
