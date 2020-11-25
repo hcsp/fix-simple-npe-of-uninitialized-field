@@ -7,9 +7,9 @@ public class Cat {
     public int getNameLength() {
         // Fix the NullPointerException thrown in this method
         // 在本方法中，修复抛出的空指针异常（NullPointerException）
-        if(name==null){
+        if (name == null) {
             return -1;
-        }else{
+        } else {
             return name.length();
         }
 
