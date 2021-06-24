@@ -11,7 +11,9 @@ public class Cat {
         // 在本方法中，修复抛出的空指针异常（NullPointerException）
         if (name == null) {
             System.out.println("无名");
+        } else {
+            return name.length();
         }
-        return name.length();
+        return -1;
     }
 }
