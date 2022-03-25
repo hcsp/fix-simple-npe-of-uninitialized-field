@@ -10,6 +10,7 @@ public class Cat {
         if(name != null) {
             return this.name.length();
         } else {
+
             return -1;
         }
 
